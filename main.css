@@ -27,22 +27,31 @@ body {
     position: fixed;
     top: 0;
 }
-.logo{
+.header a{
+    text-decoration: none;
+}
+.header__left{
     width: 37%;
     display: flex;
     /*flex-grow: 1;*/
     align-items: center;
 }
-.nav{
+.header__back-btn{
+    width: 107px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.header__nav{
     width: 63%;
     display: flex;
     /*flex-grow: 2;*/
     justify-content: space-evenly;
     align-items: center;
 }
-.nav__item a {
-    text-decoration: none;
-}
+/*.nav__item a {*/
+/*    text-decoration: none;*/
+/*}*/
 .futlodo{
     width: 75px;
     height: 75px;
