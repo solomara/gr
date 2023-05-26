@@ -114,3 +114,9 @@ flex-direction: column;
     justify-content: space-between;
     width: 80%;
 }
+.social__social>div>.foot_color_text{
+    transition: color 0.5s;
+}
+.social__social>div>.foot_color_text:hover{
+    color: white;
+}
