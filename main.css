@@ -80,3 +80,37 @@ body {
     justify-content: center;
     align-items: center;
 }
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+
+}
+.footer a{
+    text-decoration: none;
+}
+.wh{
+    height: 80px;
+    width: 250px;
+
+}
+.foot_color_text{
+    color: #9a9191;
+}
+.footer__tel_address, .footer__social{
+flex-direction: column;
+    row-gap: 7px;
+}
+.social__social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
