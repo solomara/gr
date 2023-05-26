@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    height: 85px;
+    display: flex;
+    background: linear-gradient(to top, #000000, transparent);
+
+}
