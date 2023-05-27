@@ -30,6 +30,12 @@
     width: 200px;
     font-size: 22px;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .main__main_context{
     flex-direction: column;
     row-gap: 10px;
