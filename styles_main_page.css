@@ -31,6 +31,7 @@
     font-size: 22px;
 }
 .main{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,9 +48,7 @@
 .main_context__name{
     font-size: 60px;
 }
-.tomato{
-    color: tomato;
-}
+
 .main_context__slog{
     font-size: 30px;
 }

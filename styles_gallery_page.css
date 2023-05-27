@@ -4,3 +4,35 @@
     justify-content: center;
     align-items: center;
 }
+.name_page{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 85px;
+}
+.name_page__block{
+    display: flex;
+
+}
+.name_page__block div{
+    font-size: 20px;
+}
+.name_page__block__txt_decor{
+    padding: 0 10px;
+}
+.main__main_content_gall{
+    background: silver;
+    /*width: 100%;*/
+    /*height: 700px;*/
+    margin: 205px 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main__main_content_gall img{
+    height: 200px;
+    width: 300px;
+}
