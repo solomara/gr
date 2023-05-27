@@ -1,6 +1,10 @@
 .header__back-btn{
     display: none;
 }
+.header{
+    position: fixed;
+    top: 0;
+}
 .footer {
     width: 100%;
     position: absolute;

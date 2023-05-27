@@ -10,8 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 85px;
+    /*margin-top: 85px;*/
+    /*position: fixed;*/
+    /*top: 85px;*/
 }
 .name_page__block{
     display: flex;
@@ -24,15 +25,17 @@
     padding: 0 10px;
 }
 .main__main_content_gall{
-    background: silver;
+    /*background: silver;*/
     /*width: 100%;*/
     /*height: 700px;*/
-    margin: 205px 150px 0;
+    margin: 0 150px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    row-gap: 10px;
 }
 .main__main_content_gall img{
     height: 200px;
     width: 300px;
 }
+

@@ -20,12 +20,12 @@ body {
     background-size: cover;
 }
 .header{
-    height: 85px;
+    height: 100px;
     width: 100%;
     display: flex;
     background: linear-gradient(to bottom, #000000, transparent);
-    position: fixed;
-    top: 0;
+    /*position: fixed;*/
+    /*top: 0;*/
 }
 .header a{
     text-decoration: none;
