@@ -1,8 +1,10 @@
 .main{
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
     justify-content: center;
     align-items: center;
+
 }
 .name_page{
     height: 120px;
@@ -24,12 +26,26 @@
 .main__main_content_about{
     width: 80%;
     display: flex;
+    flex-direction: column;
+    row-gap: 20px;
     justify-content: center;
     align-items: center;
+
 }
 .main_content_about__txt{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
+
+}
+.main_content_about__txt p{
+    text-shadow: 1px 4px 43px rgba(0,0,0,0.91);
+}
+.main_content_about__txt>div{
+    text-align: center;
+
+    width: 500px;
 }
 .main_content_about__img{
     width: 40%;
@@ -39,6 +55,5 @@
 }
 
 .main__main_content_about img{
-    height: 250px;
-    width: 375px;
+    width: 400px;
 }
