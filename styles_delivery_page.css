@@ -1,11 +1,11 @@
 .main{
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 50px;
     justify-content: center;
     align-items: center;
-
-}
+    padding: 30px 0;
+    }
 .name_page{
     height: 120px;
     width: 100%;
@@ -22,4 +22,19 @@
 }
 .name_page__block__txt_decor{
     padding: 0 10px;
+}
+.main__main_content{
+    text-align: center;
+}
+.txt_shadow{
+    text-shadow: 1px 4px 43px rgba(0,0,0,0.91);
+}
+.font_size{
+    font-size: 20px;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
