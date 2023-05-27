@@ -87,6 +87,7 @@ body {
     align-items: center;
     justify-content: space-around;
     font-size: 14px;
+    background: linear-gradient(to top, #000000, transparent);
 
 }
 .footer a{
@@ -115,4 +116,7 @@ flex-direction: column;
 }
 .social__social>div>.foot_color_text:hover{
     color: white;
+}
+.this_page h3{
+    color: tomato;
 }
