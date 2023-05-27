@@ -21,15 +21,3 @@
 .name_page__block__txt_decor{
     padding: 0 10px;
 }
-.main__main_content_gall{
-    margin: 0 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 10px;
-}
-.main__main_content_gall img{
-    height: 200px;
-    width: 300px;
-}
-
