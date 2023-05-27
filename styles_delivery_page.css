@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.name_page{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_page__block{
+    display: flex;
+
+}
+.name_page__block div{
+    font-size: 20px;
+}
+.name_page__block__txt_decor{
+    padding: 0 10px;
+}
