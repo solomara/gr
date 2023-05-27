@@ -21,3 +21,24 @@
 .name_page__block__txt_decor{
     padding: 0 10px;
 }
+.main__main_content_about{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_content_about__txt{
+    text-align: center;
+    width: 60%;
+}
+.main_content_about__img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main__main_content_about img{
+    height: 250px;
+    width: 375px;
+}
