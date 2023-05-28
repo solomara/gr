@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name_page{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_page__block{
+    display: flex;
+
+}
+.name_page__block div{
+    font-size: 20px;
+}
+.name_page__block__txt_decor{
+    padding: 0 10px;
+}
+.main__main_content_gall{
+    margin: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+.main__main_content_gall img{
+    height: 200px;
+    width: 300px;
+}
