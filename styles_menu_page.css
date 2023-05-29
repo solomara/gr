@@ -27,6 +27,10 @@
 .tomato{
     color: tomato;
 }
+hr{
+    border-color: silver;
+}
+
 .name_page{
     margin-top: 85px;
     height: 120px;
@@ -40,7 +44,7 @@
 
 }
 .name_page__block div{
-    font-size: 20px;
+    font-size: 23px;
 }
 .name_page__block__txt_decor{
     padding: 0 10px;
