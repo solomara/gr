@@ -82,9 +82,14 @@ body {
 .futlodo{
     width: 75px;
     height: 75px;
-    background: tomato;
+    /*background: tomato;*/
     margin-left: 10px;
 }
+.futlodo img{
+    height: 80px;
+    width: 100px;
+}
+
 .nav__item h2,h3{
     font-size: 18px;
     transition: color 0.5s;
